@@ -1,1 +1,31 @@
 /*  your css code here. If applicable */
+#box
+{
+	box-sizing:border-box;
+	height:500px;
+	width:300px;
+	background-color:lightgray;
+	padding:10px;
+	box-shadow:1px 2px 6px 2px black;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+	gap:-10px;
+
+}
+.p1
+{
+	line-height:15px;
+}
+
+button
+{
+	padding:10px;
+	border-radius:5px;
+	color:white;
+	background-color:red;
+	
+}
+
